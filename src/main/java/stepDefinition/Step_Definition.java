@@ -55,6 +55,11 @@ public class Step_Definition {
 		Demotest.excel();
 	}
 	
+	@Then("^Git Practice$") 
+	public void git() {
+		System.out.println("Git");
+	}
+	
 	@And("^close the browser$")
 		public void close() {
 			driver.close();
