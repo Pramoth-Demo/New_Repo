@@ -60,6 +60,10 @@ public class Step_Definition {
 		System.out.println("Git");
 	}
 	
+	
+	// Git Pull Practice
+	
+	
 	@And("^close the browser$")
 		public void close() {
 			driver.close();
