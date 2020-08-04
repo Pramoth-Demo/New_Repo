@@ -54,12 +54,7 @@ public class Step_Definition {
 	public void excel() {
 		Demotest.excel();
 	}
-	
-	@Then("^Git Practice$") 
-	public void git() {
-		System.out.println("Git");
-	}
-	
+
 	
 	// Git Pull Practice
 	
